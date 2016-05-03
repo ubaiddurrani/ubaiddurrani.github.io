@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--To ensure proper rendering and touch zooming-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- bootstrap cdn links -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- bootstrap cdn links ended -->
+
+    <!--<script>-->
+    <!--function labelp1()-->
+    <!--{-->
+    <!--var text = "<div class='container'> " +-->
+    <!--"<div class='row'>" +-->
+    <!--"<div class='col-sm-3 center-block' style='height: 200%; width: 50%; color: whitesmoke; background-color: #f2dede; text-align: center'>" +-->
+    <!--"<h1> Travel Mate </h1>" +-->
+    <!--"<p>Technologies used:</p>" +-->
+    <!--"<ul>" +-->
+    <!--"<li>HTML5</li>" +-->
+    <!--"<li>CSS3</li>" +-->
+    <!--"</ul>" +-->
+    <!--"</div>" +-->
+    <!--"</div>" +-->
+    <!--"</div>";-->
+    <!--document.getElementById("p1").innerHTML = text;-->
+    <!--return;-->
+    <!--}-->
+    <!--</script>-->
+
+
+    <style>
+        .pad
+        {
+            padding:10px 0px 10px 0px;
+        }
+        #dp
+        {
+            width:25%;
+            height:25%;
+        }
+        #header a
+        {
+            color: black;
+        }
+        #header a:hover
+        {
+            text-decoration: underline;
+        }
+        #p1, #p2, #p3, #p4, #p5
+        {
+            color: whitesmoke;
+            height: 850px;
+            padding-top:300px;
+            padding-bottom:200px;
+        }
+        #p1 img, #p2 img, #p3 img, #p4 img, #p5 img
+        {
+            width: 25%;
+            height: 25%;
+        }
+        #p1
+        {
+            background-color: blueviolet;
+        }
+        #p2
+        {
+            background-color: chocolate;
+        }
+        #p3
+        {
+            background-color: darkcyan;
+        }
+        #p4
+        {
+            background-color: darkolivegreen;
+        }
+        #p5
+        {
+            background-color: hotpink;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<body class="scaffolding.less" data-spy="scroll" data-target=".navbar" data-offset="50">
+<div class="row">
+    <div id="header">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="col-sm-8 navbar-header">
+                    <img src="img15.jpg" class="img-circle" alt="display pic" id="dp" /> <br />
+                    <a href="#" class="navbar-brand"><strong>Ubaid Portfolio</strong></a>
+                </div>
+
+                <div class="col-sm-4">
+                    <ul class="navbar-nav nav text-right">
+                        <li> <a href="hotel1.html#home">Home</a> </li>
+                        <li> <a href="hotel1.html#about">About</a> </li>
+                        <li> <a href="hotel1.html#portfolio">Portfolio</a> </li>
+                        <li> <a href="hotel1.html#contact">Contact</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Navigation Bar Code completed -->
+
+    <!-- portfolio details -->
+    <div class="row text-center">
+        <div class="row" id="p1">
+            <div class="col-sm-12">
+                <img src="HD-Wallpapers1.jpeg.jpg" alt="CSS 1" class="img-thumbnail" />
+            </div>
+
+            <div class="row text-center">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 text-center">
+                    <h1>IMAGE</h1>
+                    <h3>PROJECT # 01</h3>
+                    <p class="pad">This web page is developed in HTML and designed using CSS. It contains a logo, Navigation bar that changes color when hovered, an image and some text.</p>
+                    <a href="box.html" class="btn btn-primary">VIEW</a>
+                    <a href="portfolio1.html"home" class="btn btn-danger">BACK TO HOME</a>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+        <div class="row" id="p2">
+            <div class="col-sm-12">
+                <img src="travel%20landscape.jpg" alt="Second Project" class="img-thumbnail" />
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 text-center">
+                    <h1>TRAVEL</h1>
+                    <h3>PROJECT # 02</h3>
+                    <p class=pad">This web page is developed in HTML and designed using CSS. It contains some headings and paragraphs with different background color and font colors. </p>
+                    <a href="box.html" class="btn btn-primary">VIEW</a>
+                    <a href="portfolio1.html#home" class="btn btn-danger">BACK TO HOME</a>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+        <div class="row" id="p3">
+            <div class="col-sm-12">
+                <img src="Images3.jpg" alt="Third Project" class="img-thumbnail" />
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 text-center">
+                    <h1>IMAGES3</h1>
+                    <h3>PROJECT # 03</h3>
+                    <p class="pad">This is a simple students database based on a form comprised of 4 fields. The data entered by a user sets into a table as soon as the "SAVE" button is clicked. This is developed using HTML, CSS and Java Script only.</p>
+                    <a href="box.html" class="btn btn-primary">VIEW</a>
+                    <a href="portfolio1.html#home" class="btn btn-danger">BACK TO HOME</a>
+                </div>
+
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+        <div class="row" id="p4">
+            <div class="col-sm-12">
+                <img src="free-wallpaper-1.jpg" alt="Fourth Project" class="img-thumbnail" />
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 text-center">
+                    <h1>FREE WALLPAPER</h1>
+                    <h3>PROJECT # 04</h3>
+                    <p class="pad">This is a memory game that flips tiles on click. If two tiles are different, the tiles will be hidden. If the two tiles are same, the tiles would be shown. When all tiles are shown, the game is won! </p>
+                    <a href="box.html" class="btn btn-primary">VIEW</a>
+                    <a href="portfolio1.html#home" class="btn btn-danger">BACK TO HOME</a>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+        <div class="row" id="p5">
+            <div class="col-sm-12">
+                <img src="Beautiful-Wallpapers-63.jpg" alt="Simple Calculator" class="img-thumbnail" />
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 text-center">
+                    <h1>BEAUTIFUL</h1>
+                    <h3>PROJECT # 05</h3>
+                    <p class="pad">The simple calculator is built in HTML5, CSS3, JavaScript and Bootstrap. It is fully functional performing 6 basic operations and possess on/off capability. </p>
+                    <a href="box.html" class="btn btn-primary">VIEW</a>
+                    <a href="portfolio1.html#home" class="btn btn-danger">BACK TO HOME</a>
+                </div>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+</div>
+<div class="row" id = "footer">
+    <div class="col-sm-8 text-center">
+        <p><strong> Ubaid, © 2016. All Rights Reserved. </strong></p>
+    </div>
+    <div class="col-sm-3 text-right">
+        <p> <strong>Get in Touch:</strong>
+            <a href="mailto:ubaid_khan282@yahoo.com" target="_blank">
+                <img src="Images.jpg" alt="Email Me" width = "15%" height="15%" class="img-circle" />
+            </a>
+            <a href="https://github.com/ubaidkhan" target="_blank">
+                <img src="gitup.jpg" alt="GitHub Profile" width = "13%" height="13%" class="img-circle"  />
+            </a>
+            <a href="https://pk.linkedin.com/in/ubaid_khan" target="_blank">
+                <img src="linkedin-logo.png" alt="LinkedIn Profile" width = "15%" height="15%" class="img-rounded"  />
+            </a> </p>
+    </div>
+    <div class="col-sm-1 text-center" id="backtotop">
+        <a href="#header">
+            <img src="Images1.png" alt="Back to Top" width = "65%" height="65%" class="img-responsive" />
+        </a>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
